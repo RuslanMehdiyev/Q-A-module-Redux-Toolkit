@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.app {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.qaContainer {
+  width: 60%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  min-height: 100px;
+  background: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+.askQuestion {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.askQuestion input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.5rem;
+  border: none;
+  background-color: #ead4ff;
+  border-radius: 10px;
+}
+.askQuestion button {
+  width: fit-content;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  font-size: 1.6rem;
+  border: none;
+  background-color: #ead4ff;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.askQuestion button:hover {
+  opacity: 0.6;
+}
+.questions {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+.questions-container {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  /* gap: 1.5rem; */
+}
+.questions-container h4 {
+  font-size: 1.5rem;
+}
+.questions-container button {
+  padding: 3px 6px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.questions-container .answerBtn {
+  background-color: #e4c7ff;
+  border-radius: 5px;
+  color: black;
+}
+.questions-container .editBtn {
+  opacity: 0.8;
+}
+.answerInput {
+  width: 90%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+.answerBtn {
+  cursor: pointer;
+  padding: 5px 10px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.answers {
+  margin-top: 20px;
+  width: 100%;
+  padding: 1.2rem;
+  border-radius: 10px;
+  background-color: #dddddd;
+}
